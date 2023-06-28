@@ -1,0 +1,11 @@
+server:
+  port: 5101
+spring:
+  application:
+    name: user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: https://pfgc-cardgames-nacos-dev.gamepind.com
+        group: APP_GROUP
+        namespace: 639074a5-5ca6-4554-a177-6ad485d8a5ac
